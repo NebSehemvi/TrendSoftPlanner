@@ -7,3 +7,4 @@
 # 98 <script src="JS/jquery-1.11.3.min.js"></script>
 # Also it may require server: node.js or Apache
 # Or whatever you like and prefer
+# No syntactic sugar was used (sorry for that, guys! I think I need a time travel machine to learn SASS or LESS)
