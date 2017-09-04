@@ -1,9 +1,9 @@
 # TrendSoftPlanner
-#Demo-version of a planner
-#It was made with TrendSoft' psd template
-#All rights belongs to TrendSoft
-#First of all it requires jQuery.
-#You can add it on 98 line in "trend.html"
-98 <script src="JS/jquery-1.11.3.min.js"></script>
-#Also it may require server: node.js or Apache
-#Or whatever you like and prefer
+# Demo-version of a planner
+# It was made with TrendSoft' psd template
+# All rights belongs to TrendSoft
+# First of all it requires jQuery.
+# You can add it on 98 line in "trend.html"
+# 98 <script src="JS/jquery-1.11.3.min.js"></script>
+# Also it may require server: node.js or Apache
+# Or whatever you like and prefer
