@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,700&subset=cyrillic');
+
+body {
+    background-color: #efefef;
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: calc(0px + ((100vw - 1208px)/2));
+}
+body a {
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-width: 1208px;
+    height: 60px;
+    background-color: #fff;
+    border-bottom: 1px solid #dadada;
+    z-index: 9999;
+}
+
+.nav-content {
+    padding-top: 18px;
+    padding-left: calc(0px + ((100vw - 1208px)/2));
+    width: 1208px;
+    font-size: 14px;
+}
+
+nav {
+    float:left;
+    padding-top:4px;
+}
+nav a {
+    display: -moz-inline-box;
+    display: inline-block;
+    font-weight: 700;
+    color: #ff340d;
+}
+
+.img-1 {
+    background: url('IMG/logo_ru.png') no-repeat;
+    height: 24px;
+    width: 133px;
+    float:left;
+    margin-right: 72px;
+}
+
+.img-3 {
+    background: url('IMG/parrow.png') no-repeat;
+    height: 6px;
+    width: 7px;
+    float:right;
+    margin-top: 6px;
+    margin-left: 5px;
+}
+
+/*Profile block*/
+.img-2 {
+    background: url('IMG/profile.png') no-repeat;
+    height: 20px;
+    width: 20px;
+    float:left;
+    margin-right: 10px;
+    margin-top: -2px;
+}
+
+.profile {
+    margin-left: 732px;
+    display: inline-block;
+}
+.profile a {
+    font-weight: 400;
+}
+
+/*Body*/
+
+.add-button {
+    position:absolute; 
+    display:inline-block; 
+    height:38px; 
+    line-height: 38px;
+    padding:0px 23.5px; 
+    background-color:#ff340d; 
+    font-size: 12px;
+    font-weight:700;
+    text-transform:uppercase; 
+    color:#fff;
+    margin-left: -8px;
+    margin-top: 83px;
+}
+.add-button:hover {
+    background-color: #ff340d;
+    opacity: 0.5;
+}
+
+.info-block {
+    width: 168px;
+    height: 230px;
+    background: #FFF;
+    position: absolute;
+    margin-left: -8px;
+    margin-top: 150px;
+}
+.info-block .block-title {
+    font-size: 11px;
+    font-weight: 300;
+    color: #999999;
+    text-transform: uppercase;
+    padding: 25px 53px 15px 29px;
+    line-height: 19px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #efefef;
+}
+
+.info-block .ul-title {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-left: 29px;
+    margin-bottom: -7px;
+}
+
+.info-block ul {
+    padding-left: 44px;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #efefef;
+}
+
+.info-block ul li {
+    font-size: 14px;
+    color: #dadada;
+    margin-bottom: 7px;
+}
+
+.info-block ul li span {
+    color: #ff340d;
+}
+
+.info-block .block-reports {
+    margin-left: 29px;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ff340d;
+}
+
+.selected-block {
+    position: relative;
+    display:inline-block; 
+    height: 38px;
+    margin-top: 83px;
+    margin-left: 198px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.selected-block a {
+    color: #000;
+}
+
+.img-4 {
+    background: url('IMG/pict.png') no-repeat;
+    height: 38px;
+    width: 38px;
+    float:left;
+    margin-right: 20px;
+}
+
+.img-5 {
+    background: url('IMG/parrow-big.png') no-repeat;
+    height: 6px;
+    width: 7px;
+    float:right;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+/*Table*/
+.table {
+    position: relative;
+    width: 940px;
+    display:inline-block; 
+    margin-bottom: 0;
+    margin-top: 29px;
+    margin-left: 198px;
+    margin-bottom: 40px;
+    padding: 0 30px;
+    background: #FFF;
+}
+.table table {
+    width: 100%;
+    border-spacing: 0px;
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+    font-size: 14px;
+}
+
+.img-6 {
+    background: url('IMG/edit.png') no-repeat;
+    height: 5px;
+    width: 14px;
+}
+
+th, td {
+ padding-right: 20px;
+ text-align: left;
+}
+
+th {
+    line-height: 48px;
+    color: #999999;
+    font-weight: 400;
+}
+
+td {
+    line-height: 43px;
+    border-top: 1px solid #efefef;
+}
+
+td:nth-child(3) {
+    max-width: 240px;
+    overflow: hidden;
+    white-space: nowrap;
+    word-wrap: normal; /* для IE */ 
+    text-overflow: clip;
+    padding-right: -20px;
+}
+
+th:nth-child(4),
+td:nth-child(4) {
+    padding-left: 20px;
+}
+
+.theader {
+    height: 145px;
+    font-family: 'Ubuntu';
+}
+.theader select {
+    font-size: 14px;
+    font-weight: 400;
+    height: 30px;
+    padding-left: 12px;
+    padding-right: 20px;
+    border-color: #dadada;
+    margin-top: 20px;
+}
+
+.theader #search {
+    position: absolute;
+    font-size: 14px;
+    font-weight: 400;
+    height: 30px;
+    right: 30px;
+    margin-top: 19px;
+    border: 1px solid #dadada;
+    padding-left: 12px;
+    padding-right: 20px;
+}
+
+.heading {
+    font-size: 22px;
+    font-weight: 400;
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    border-bottom: 1px solid #efefef;
+}
+
+#numOfTasks {
+    color: #999999;
+    margin-left: 30px;
+    font-weight: 300;
+}
+
+.tfooter {
+    height: 79px;
+}
+
+/*Footer*/
+footer {
+    margin-left: 198px;
+    width: 1208px;
+}
+footer h1 {
+    font-size: 24px;
+}
+footer p {
+    font-size: 18px;
+}
+
+.footer-blocks {
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.sec-questions {
+    display: block;
+    background-color: #ff340d;
+    padding: 78px 100px 0px 63px;
+    width: 337px;
+    min-width: 337px;
+    height: 268px;
+    float: left;
+    color: #fff;
+}
+
+.sec-contacts {
+    display: block;
+    background-color: #fff;
+    padding: 78px 84px 0px 83px;
+    width: 333px;
+    min-width: 333px;
+    height: 268px;
+    float: left;
+    color: #000;
+}
+
+.sec-button {
+    position:relative; 
+    display:inline-block; 
+    top:10px;
+    height:38px; 
+    line-height: 38px;
+    padding:0px 19px; 
+    background-color:#fff; 
+    font-size: 12px;
+    font-weight:700; 
+    color:#000;
+}
+
+.sec-button:hover {
+    background-color: #ff340d;
+    color:#FFF;
+    outline: 1px solid #FFF;
+}
+
+.footer-line {
+    float: left;
+    margin-top: 59px;
+    margin-bottom: 67px;
+}
+.footer-line p,
+.footer-line a {
+    display: inline-block;
+}
+.footer-line p {
+    margin-right: 117px;
+    font-size: 13px;
+}
+
+.footer-company {
+    color: #666666;
+}
+.footer-phone {
+    font-weight: 700;
+}
+
+.fb {
+    background: url('IMG/fb.png') no-repeat;
+    width: 7px;
+    height: 15px;
+    margin-left: 405px;
+    margin-right: 15px;
+    float:left;
+}
+.fb:hover {
+    background: url('IMG/fb_o.png') no-repeat;
+}
+
+.vk {
+    background: url('IMG/vk.png') no-repeat;
+    width: 19px;
+    height: 12px;
+    float:left;
+}
+.vk:hover {
+    background: url('IMG/vk_o.png') no-repeat;
+}
