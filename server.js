@@ -1,6 +1,5 @@
 ﻿var http = require('http');
 var url = require('url');
-var qs = require('querystring');
 var static = require('node-static');
 var file = new static.Server('.');
 
