@@ -2,7 +2,6 @@
 var url = require('url');
 var qs = require('querystring');
 var static = require('node-static');
-var mdls = require('./lib/mdls.js'); // моя библиотека модулей
 var file = new static.Server('.');
 
 http.createServer(function(req, res) {
