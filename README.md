@@ -7,5 +7,5 @@
 # 98 <script src="JS/jquery-1.11.3.min.js"></script>
 # Also it may require server: node.js or Apache
 # Or whatever you like and prefer
-# If you use nodejs you can simply start server with "node server.js"
+# If you use node.js you can simply start server with "node server.js"
 # No syntactic sugar was used (sorry for that, guys! I think I need a time travel machine to learn SASS or LESS)
