@@ -250,6 +250,7 @@ td:nth-child(4) {
 
 .theader #search {
     position: absolute;
+    width: 280px;
     font-size: 14px;
     font-weight: 400;
     height: 30px;
