@@ -8,8 +8,9 @@ tasksGroupName.innerHTML= selbox.options[selbox.selectedIndex].text;
 $(function(){
     $.getJSON('tasks.json', function(data) {
         var counter = 0;
+        var outputTable = $('#tasksTable'); 
         for(var i=0;i<data.tasks.length;i++){
-            $('#tasksTable').append('<tr><td><img src=\'IMG\\' + data.tasks[i].type +
+            outputTable.append('<tr><td><img src=\'IMG\\' + data.tasks[i].type +
                             '.png\'></td><td>' + data.tasks[i].ticket +
                             '</td><td>' + data.tasks[i].tname +
                             '</td><td><img src=\'IMG\\' + data.tasks[i].priority +
